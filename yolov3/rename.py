@@ -7,9 +7,9 @@ Created on Tue Jun 15 10:12:56 2021
 
 
 import os
-path = "C:/Users/surface/Desktop/red pillar"
+path = "C:/Users/surface/Documents/Hardware Training/red"
 filelist = os.listdir(path) #该文件夹下所有的文件（包括文件夹）
-count=1#设置图片编号从1开始
+count=360#设置图片编号从1开始
 for file in filelist:#打印出所有图片原始的文件名
     print(file)
 for file in filelist:   #遍历所有文件
